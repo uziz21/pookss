@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+        h1 {
+            color: red;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px;
+            margin: 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .yes {
+            background-color: lightgreen;
+        }
+        .no {
+            background-color: lightcoral;
+        }
+        .cat-image {
+            width: 200px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="careless_whispers.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="container">
+        <h1>Will you be my Valentine? (🥺🥺🥺😚😚)</h1>
+        <img class="cat-image" src="img1.jpg" alt="Cute Cat">
+        <div class="buttons">
+            <button class="yes" onclick="yesClicked()">Yes</button>
+            <button class="no" onclick="noClicked()">No</button>
+        </div>
+    </div>
+
+    <script>
+        function yesClicked() {
+            window.location.href = "img2_1.PNG"; // Blushing cat
+        }
+        function noClicked() {
+            window.location.href = "https://www.youtube.com/watch?v=AWOVk26wgLY"; // Funny redirect
+        }
+    </script>
+</body>
+</html>
